@@ -1,0 +1,628 @@
+// 1400
+// 1200
+// 1140
+// 1024
+// 992
+// 768/767
+// 576
+// 320
+
+@media (max-width:1400px){
+    .Recent{
+        .container{
+            .re-news {
+                padding: 0 5px;
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1200px){
+    header{
+        .header{
+            display: none;
+            position: sticky;
+        }
+    }
+    .banner {
+        .banner-data {
+            p{
+                font-size: 16px;
+            }
+            h1{
+                font-size: 60px;
+            }
+        }
+    }
+    .Completed{
+        padding: 100px 0;
+        .Completed-data{
+            h2{
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .Completed-img{
+            width: 90%;
+        }
+    }
+    .star{
+        padding-top: 150px;
+        .clif{
+            img{
+                width: 15%;
+                margin: 0 auto 35px;
+            }
+            h4{
+                font-size: 18px;
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+        }
+        .clif-p{
+            p{
+                font-size: 14px;
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+    .Recent{
+        h2{
+            font-size: 50px;
+        }
+    }     
+    .Request{
+        .call{
+            margin-left: 50px;
+        }
+    }   
+}
+
+@media (max-width:1140px){
+    .sec-2 {
+        .business {
+            margin: 0 10px;
+        }
+        .business-3{
+            h2{
+                font-size: 32px;
+            }
+        }
+    }
+    .services{
+        .container{
+            .heading{
+                h2{
+                    font-size: 50px;
+                    margin-bottom: 80px;
+                }
+            }
+            .row{
+                .col-4{
+                        width: 50%;
+                        margin: 0 auto;
+                }
+            }
+        }
+    }
+    .Recent{
+        h2{
+            font-size: 45px;
+        }
+    }
+    .Request{
+        .col-4{
+            h3{
+                font-size: 35px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .call{
+            margin-left: 30px;
+            .name {
+                margin: 0 10px 25px;
+            }
+    
+            .phone {
+                margin: 0 10px 25px;
+            }
+        }
+        .Service{
+            select{
+                width: 350px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1024px){
+    header {
+        position: static;
+        padding: 20px 80px;
+    }
+
+    header nav {
+        position: fixed;
+        text-align: center;
+        background-color: white;
+        top: 15%;
+        left: -65%;
+        bottom: 0;
+        width: 30%;
+        z-index: 999;
+    }
+
+    header .row .nav .h-menu a {
+        padding: 20px 14px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header .row button {
+        display: block;
+        background-color: transparent;
+        font-size: 15px;
+    }
+    .banner {
+        background-position-x: 55%;
+
+        .banner-data {
+            p{
+                font-size: 14px; 
+                line-height: 18px;
+            }
+            h1{
+                font-size: 50px;
+                line-height: 70px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .sec-2 {
+        .row{
+            .col-4{
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+        .business {
+            margin: 0 6px;
+        }
+        .business-1{
+            h2{
+                font-size: 28px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .business-3{
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 15px
+            }
+            a{
+                font-size: 16px;
+            }
+        }
+    }
+    .Recent{
+        h2{
+            font-size: 45px;
+        }
+        .re-data{
+            h3{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .Request{
+        .call{
+            margin-left: 30px;
+        }
+        .Service{
+            display: flex;
+            select{
+                width: 250px;
+            }
+        }
+    } 
+}
+
+
+@media (max-width:992px){
+    .banner {
+        .banner-data {
+            h1{
+                font-size: 45px;
+                line-height: 60px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .sec-2 {
+        .business {
+            margin: 0 6px;
+        }
+    }
+    .more{
+        .col-7{
+            width: 100%;
+        }
+        .col-5{
+            width: 100%;
+            .more-data{
+                margin-left: 0;
+            }
+        }
+    }
+    .Completed{
+        padding: 100px 0;
+        .Completed-data{
+            margin-top: 10px;
+            h2{
+                font-size: 30px;
+                margin-bottom: 8px;
+            }
+            p{
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 15px;
+            }
+            .btn{
+                font-size: 12px;
+                padding: 15px 40px;
+            }
+        }
+        .Completed-img{
+            width: 90%;
+        }
+    }
+    .star{
+        padding-top: 100px;
+        .clif{
+            h4{
+                font-size: 16px;
+            }
+        }
+    }
+    .Recent{
+        .container{
+            .row{
+                .col-4{
+                    width: 50%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .Request{
+        .row{
+            .col-4{
+                width: 100%;
+            }
+        }
+        .Service{
+            select{
+                width: 300px;
+            }
+        }
+    }
+    footer{
+        .col-4{
+            .foot{
+                p{
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .banner {
+        .banner-data {
+            h1{
+                font-size: 35px;
+                line-height: 55px;
+                margin-bottom: 25px;
+            }
+            .btn{
+                padding: 8px 50px;
+                font-size: 14px;
+            }
+        }
+    }
+    .services{
+        .container{
+            .heading{
+                h2{
+                    font-size: 45px;
+                    margin-bottom: 50px;
+                }
+            }
+            .row{
+                .col-4{
+                    width: 100%;
+                    .services-card{
+                        padding: 30px 61px 30px;
+                    }
+                    .services-data{
+                        h4{
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Completed{
+        .col-6{
+            width: 100%;
+        }
+        .col-5{
+            width: 100%;
+            .Completed-img{
+                width: 70%;
+            }
+        }
+    }
+    .star{
+        .clif{
+            h4{
+                font-size: 14px;
+            }
+        }
+        .clif-p{
+            p{
+                font-size: 12px;
+            }
+            span{
+                font-size: 12px;
+            }
+        } 
+    }  
+    .Recent{
+        h2{
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+        .container{
+            .row{
+                .col-4{
+                    width: 100%;
+                    .re-data{
+                        h3{
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    .Request{
+        .Service{
+            select{
+                width: 400px;
+            }
+            .btn1{
+                width: 400px;
+            }
+        }
+    }
+    footer{
+        .col-4{
+            width: 50%;
+        }
+        .col-2{
+            width: 50%;
+        }
+        .col-3{
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width:650px){
+    .sec-2{
+        .business-1{
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .business-3{
+            padding: 25px 25px;
+            h2{
+                font-size: 28px;
+            }
+            p{
+                font-size: 13px
+            }
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+    .more{
+        .col-5{
+            .more-data{
+                padding: 30px;
+            }
+        }
+    }
+    .Request{
+        .call{
+            padding-left: 0;
+            .name {
+                margin: 0 0 30px;
+            }
+    
+            .phone {
+                margin: 0 5px 30px;
+            }
+        }
+        .Service{
+            select{
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:576px){
+    .banner {
+        .banner-data {
+            p{
+                font-size: 12px;
+                line-height: 16px;
+                padding: 10px 10px;
+            }
+            h1{
+                font-size: 30px;
+                line-height: 40px;
+            }
+            .btn{
+                padding: 6px 34px;
+                font-size: 12px;
+            }
+        }
+    }
+    .sec-2 {
+        .row{
+            .col-4{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+        .business-1{
+            padding-bottom: 10px;
+        }
+    }
+    .more{
+        .col-5{
+            .more-data{
+                h2{
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+                p{
+                    font-size: 14px;
+                    margin-bottom: 48px;
+                    line-height: 25px;
+                }
+
+            }
+        }
+    }
+    .services{
+        .container{
+            .heading{
+                h2{
+                    font-size: 35px;
+                    margin-bottom: 50px;
+                }
+            }
+            .row{
+                .col-4{
+                    .services-card{
+                        padding: 30px 20px 30px;
+                    }
+                    .services-data{
+                        h4{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Completed{
+        padding: 50px 0;
+        .Completed-data{
+            margin: 15px 5px;
+            .btn{
+                padding: 14px 35px;
+            }
+        }
+    }
+    .star{
+        .clif{
+            h4{
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        }
+        .clif-p{
+            p{
+                font-size: 12px;
+            }
+            span{
+                font-size: 12px;
+            }
+        } 
+    }
+    .Recent{
+        h2{
+            font-size: 30px;
+            margin-bottom: 45px;
+        }
+    }
+    .Request{
+        .call{
+            margin-left: 0;
+            .f-naph {
+                display: block;
+                input{
+                    width: 100%;
+                }
+            }
+        }
+        .col-8{
+            width: 95%;
+        }
+    }
+    footer{
+        .col-4{
+            width: 100%;
+        }
+        .col-2{
+            width: 100%;
+        }
+        .col-3{
+            width: 100%;
+        }
+        .footer-end{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
